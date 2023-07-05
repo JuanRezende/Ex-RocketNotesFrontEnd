@@ -16,7 +16,7 @@ export function Header() {
     signOut();
   }
 
-  const avatarURL = user.avatar ? `${api.defaults.baseURL}files/${user.avatar}` : avatar_placeholder;
+  const avatarURL = user.avatar ? `${api.defaults.baseURL}/files/${user.avatar}` : avatar_placeholder;
   
   return(
     <Container>
